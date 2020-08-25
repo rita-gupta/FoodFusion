@@ -1,5 +1,5 @@
-body {
-    /* margin: 0; */
+/* body {
+   
     padding-top: 50px;
     z-index:0;
 }
@@ -21,4 +21,48 @@ body {
 }
 a{
     color:#212529;
+} */
+
+.row-header {
+    margin : 8px auto;
+    padding: 0px;
+}
+.row-content {
+    margin : 50px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer{
+    background-color: #b7a2dc;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+.jumbotron{
+    padding: 70px 30px;
+    margin: 0px auto;
+    background-color: #9575cd;
+    color: floralwhite
+    
+}
+address{
+    font-size: 80%;
+    margin: 0px;
+
+
+}
+.navbar-dark {
+    background-color: blueviolet;
+}
+.font-icon {
+    margin: 0 5px;
+}
+a{
+    color:#212529;
+}
+body {
+   
+    padding-top: 50px;
+    z-index:0;
 }

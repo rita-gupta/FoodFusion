@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="node_modules/bootstrap-social">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- <link rel="stylesheet" href="node_modules/font-awesome"> -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+
+
+       <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
 
         <link rel="stylesheet" href="style.css">
     <title>Food Fusion</title>
@@ -27,7 +28,7 @@
                     <li class="nav-item"><a class="nav-link active" href="#"> <i class="fa fa-home fa-lg  font-icon"></i>Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg  font-icon"></span>About us</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg  font-icon"></span>Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg "></span>Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg "></span>Contact</a></li>
     
                 </ul>
             </div>
@@ -36,9 +37,9 @@
     </nav>
 
 
-    <header>
-        <div class="jumbotron">
-            <div class="container">
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
                 <div class="col-12 col-sm-6"> 
                     <h1>Food Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
@@ -50,7 +51,7 @@
     </header>
 
     <div class="container">
-        <div class="row">
+        <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 col-md-3">
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
@@ -61,7 +62,7 @@
         </div>
 
 
-        <div class="row">
+        <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
@@ -71,7 +72,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 col-md-3">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
@@ -89,9 +90,9 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-7 col-sm-5">
@@ -107,12 +108,12 @@
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a href="http://google.com/+"> <i class="fa fa-google fa-lg"></i></a>
-                        <a href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg font-icon"></i></a>
-                        <a href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg  font-icon"></i></a>
-                        <a href="http://twitter.com/"><i class="fa fa-twitter fa-lg  font-icon"></i></a>
-                        <a href="http://youtube.com/"><i class="fa fa-youtube fa-lg  font-icon"></i></a>
-                        <a href="mailto:"><i class="fa fa-envelop fa-lg  font-icon"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon  btn-linkedin" href="mailto:"><i class="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
            </div>
@@ -123,8 +124,12 @@
            </div>
         </div>
     </footer>
-    
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+
+    <!-- <script src="node_module0s/jquery/dist/jquery.min.js"></script> -->
 </body>
 
 </html>
