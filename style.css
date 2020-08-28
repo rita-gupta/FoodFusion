@@ -75,3 +75,6 @@ body {
 .card{
     margin-bottom: 20px;
 }
+#accordion {
+    cursor: pointer;
+}
