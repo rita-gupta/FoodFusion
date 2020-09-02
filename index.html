@@ -20,6 +20,7 @@
 
 <body>
 
+
     <!-- ---------------------------------------Login Modal ----------------------------------------------------------->
 
     <div id="loginModal" class="modal fade" role="dialog">
@@ -65,7 +66,8 @@
     </div>
 
  <!-------------------------------------------------------------------------Login Modal ----------------------------------------------------------->
-    <div id="reserveTable" class="modal fade" role="dialog">
+
+    <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="content">
 <!-- -----------------------------------------------------------------------Modal Content------------------------------------ -->
             <div class="modal-content">
@@ -75,7 +77,7 @@
                 </div>
                 <div class="modal-body">
                     <form>
-                        <div class="form-group row" id="reserveTable">
+                        <div class="form-group row" id="myModal">
                             <label for="number1" class="col-md-2 col-form-label">Number of Guest</label>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
@@ -143,6 +145,7 @@
         </div>
         </form>
     </div>
+
 <!-- ----------------------------------------------------------------------------End of Modal------------------------------ -->
 
 
@@ -170,7 +173,7 @@
 
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <a role="button" id="loginButton">
                         <span class="fa fa-sign-in"></span> Login
                     </a>
                 </span>
@@ -193,14 +196,14 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm align-self-center">
-                    <a role="button" class="btn btn-warning btn-lg btn-block" data-toggle="modal"
-                        data-target="#reserveTable">Reserve
+                    <a id ="reserveButton" role="button" class="btn btn-warning btn-lg btn-block" >Reserve
                         Table</a>
                 </div>
             </div>
         </div>
     </header>
-    <!-- ----------------------------------carousel is used to show sliding--------------------------------------------- -->
+    <!-- ----------------------------------carousel is used to show sliding--------------------------------data-toggle="modal"
+                        data-target="#reserveTable"------------- -->
     <div class="container">
         <div class="row row-content">
             <div class="col">

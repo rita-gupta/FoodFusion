@@ -1,47 +1,61 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $("[data-toggle ='tooltip']").tooltip();
 
 
 
-    $("#mycarousel").carousel({interval:1000});
+    $("#mycarousel").carousel({ interval: 1000 });
     // $("#carousel-pause").click(function(){
     //     $("#mycarousel").carousel('pause');
 
     // });
     // $("#carousel-play").click(function(){
     //     $("#mycarousel").carousel('cycle');
-        
+
     // });
 
 
     // using only one button to pause and play
-$("#carouselButton").click(function(){
-    if($("#carouselButton").children("span").hasClass('fa-pause')){
-        $("#mycarousel").carousel('pause');
+    $("#carouselButton").click(function () {
+        if ($("#carouselButton").children("span").hasClass('fa-pause')) {
+            $("#mycarousel").carousel('pause');
 
-        $("#carouselButton").children("span").removeClass('fa-pause');
-        
-        $("#carouselButton").removeClass('btn-danger');
+            $("#carouselButton").children("span").removeClass('fa-pause');
 
-        $("#carouselButton").children("span").addClass('fa-play');
+            $("#carouselButton").removeClass('btn-danger');
 
-        $("#carouselButton").addClass('btn-success');
+            $("#carouselButton").children("span").addClass('fa-play');
 
-     } else if ($("#carouselButton").children("span").hasClass('fa-play')){
+            $("#carouselButton").addClass('btn-success');
 
-        $("#mycarousel").carousel('cycle');
+        } else if ($("#carouselButton").children("span").hasClass('fa-play')) {
 
-        $("#carouselButton").children("span").removeClass('fa-play');
+            $("#mycarousel").carousel('cycle');
 
-        $("#carouselButton").removeClass('btn-success');
+            $("#carouselButton").children("span").removeClass('fa-play');
 
-        $("#carouselButton").children("span").addClass('fa-pause');
+            $("#carouselButton").removeClass('btn-success');
 
-        $("#carouselButton").addClass('btn-danger');
+            $("#carouselButton").children("span").addClass('fa-pause');
+
+            $("#carouselButton").addClass('btn-danger');
+        }
+    });
+
+    $("#reserveButton").click(function () {
+
+        $('#reserveModal').modal('show');
+
+    });
+
+    $('#loginButton').click(function(){
+        $('#loginModal').modal('show');   
+    });
 
 
-     }
 });
-   
 
-   });
+
+
+
+
+
