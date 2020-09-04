@@ -49,6 +49,7 @@ body {
   }
   .carousel {
     background-color: $background-dark;
+    
 
      .carousel-item {
         height: $carousel-item-height;
@@ -70,6 +71,28 @@ body {
     bottom: 0px;
     z-index: 1;
   }
+
+
+
+ 
+
+.modal-content{
+
+  .modal-header{
+    background-color: $background-dark;
+
+    .modal-title{
+      color: white;
+    }
+  }
+
+  .modal-body {
+    background-color: $background-pale;
+  }
+
+
+}
+
   .footer {
     background-color: $background-pale;
    @include zero-margin(20px, 0px);

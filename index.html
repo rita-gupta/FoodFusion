@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
@@ -15,6 +15,8 @@
 
 
     <link rel="stylesheet" href="css/styles.css">
+
+<!-- endbuild -->
     <title>Food Fusion</title>
 </head>
 
@@ -127,10 +129,13 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="number2" class="col-md-2 col-form-label">Date and Time</label>
-                            <div>
-                                <input type="date" id="reserve7" name="reserve7" value="reserve7" >
-                                <input type="time" id="reserve8" name="reserve8" value="reserve8">
+                            <label for="number2" class="col-12 col-md-2 col-form-label">Date and Time</label>
+                            <div class=' col-12 col-md-5'>
+                                <input type="date" id="reserve7" name="reserve7"
+                                class="form-control">
+                            </div>    
+                            <div class=' col-12 col-md-5'> 
+                                <input type="time" id="reserve8" name="reserve8" class="form-control">
                             </div>
 
                         </div>
@@ -453,14 +458,14 @@
             </div>
         </footer>
 
-
+        <!-- build:js js/main.js -->
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="scripts.js"></script>
 
-
-        <!-- <script src="node_module0s/jquery/dist/jquery.min.js"></script> -->
+        <!-- endbuild -->
+        
 </body>
 
 </html>

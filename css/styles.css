@@ -50,6 +50,14 @@ address {
   bottom: 0px;
   z-index: 1; }
 
+.modal-content .modal-header {
+  background-color: #512DA8; }
+  .modal-content .modal-header .modal-title {
+    color: white; }
+
+.modal-content .modal-body {
+  background-color: #b7a2dc; }
+
 .footer {
   background-color: #b7a2dc;
   margin: 0px auto;
